@@ -210,6 +210,7 @@ mod recent_blockhashes_account;
 mod serde_snapshot;
 mod sysvar_cache;
 pub(crate) mod tests;
+mod execution_domain;
 
 pub const SECONDS_PER_YEAR: f64 = 365.25 * 24.0 * 60.0 * 60.0;
 
